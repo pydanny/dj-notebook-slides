@@ -18,28 +18,27 @@ The story and demo of [dj-notebook](https://github.com/pydanny/dj-notebook)
 
 1. Story
 2. Demo
-3. The project
-4. Calls to action
+3. Calls to action
 
 ---
 
-## Story
+## 1. Story
 
-----
+---
 
 ### Jupyter Notebook is awesome
 
 - Easy visualizations
 - unlike the REPL remembers state between sessions
 
-----
+---
 
 ### Jupyter buts...
 
 - The web interface feels clunky
 - Who wants to code in a browser?
 
-----
+---
 
 ### django-extensions
 ## shell_plus
@@ -50,7 +49,7 @@ The story and demo of [dj-notebook](https://github.com/pydanny/dj-notebook)
 
 **note: Calling it shell_plus from now on**
 
-----
+---
 
 ### shell_plus buts...
 
@@ -58,7 +57,7 @@ The story and demo of [dj-notebook](https://github.com/pydanny/dj-notebook)
   - Code is a bit cryptic
   - Shell doesn't remember what you did before
 
-----
+---
 
 ## [Django+Jupyter]()
 ### is wonderful
@@ -71,19 +70,19 @@ So easy!
 
 Even brings in shell_plus!
 
-----
+---
 
 # But...
 
-----
+---
 
 ## [Django+Jupyter]() never works
 
-----
+---
 
 ### After periodic attempts over the years
 
-----
+---
 
 ## I gave up on [Django+Jupyter]()
 
@@ -91,23 +90,23 @@ Even brings in shell_plus!
 
 # June 2023
 
-----
+---
 
 Audrey started to use Jupyter notebook but wasn't complaining
 
-----
+---
 
 Taught me that VS Code has a fantastic interface
 
-----
+---
 
 Still couldn't use it with Django :sad:
 
-----
+---
 
 # July 2023
 
-----
+---
 
 Found example in Kraken for running Django with Jupyter
 
@@ -131,13 +130,13 @@ Brand.objects.all()
 
 :shock:
 
-----
+---
 
 ## What about django-extensions shell_plus?
 
 I want that magic shell...
 
-----
+---
 
 ### Dove into shell_plus
 
@@ -160,7 +159,7 @@ for directive in import_directives:
                 continue
 ```
 
-----
+---
 
 ### Got it working!
 
@@ -179,44 +178,62 @@ _plus.Brand.objects.all()
 
 ---
 
-# Open sourcing
+### Getting there took a while
 
-----
+- Code was one challenge
+- Kraken's magnificent volume was another
 
-## I want to move faster
+---
+
+## I
+## want
+## to move
+# [faster]()
+
+---
+
+### I want to move faster
 
 - Kraken serves 10s of millions of customers
 - We have to tread carefully
 
-----
+---
+
+## Let's extract the code from Kraken!
+
+---
+
+# Open sourcing
+
+---
+
+## Open sourcing
+
+- Allows us to add features more quickly
+- Share the fun of Django+Jupyter with everyone else
+
+---
 
 ### Good Fortune
 
 Django+Jupyter is not tied to Kraken or Octopus Energy's business model
 
-----
+---
 
-# Open sourcing
-
-- Allows us to add features more quickly
-- Share the fun of Django+Jupyter with everyone else
-
-----
-
-#### Current state:
+## Current state:
 
 - Easy-to-use wrapper around shell_plus
 - Extra tools added that we've dreamed up
 
 ---
 
-## Demo
+## 2. Demo
 
 ---
 
-## Calls to action 
+## 3. Calls to action 
 
-----
+---
 
 # Try dj-notebook
 
@@ -225,15 +242,15 @@ Django+Jupyter is not tied to Kraken or Octopus Energy's business model
 - Bugs
 - Features
 
-----
+---
 
 ## Help us fight climate change
 
-----
+---
 
 ### [octopus.energy/careers](https://octopus.energy/careers)
 
-----
+---
 
 # Work for others in the field
 
