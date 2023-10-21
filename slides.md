@@ -22,40 +22,33 @@ The story and demo of [dj-notebook](https://github.com/pydanny/dj-notebook)
 
 ---
 
-## 1. Story
+# 1. Story
 
 ---
 
-### Jupyter Notebook is awesome
+### Jupyter Notebook is a Super REPL
 
-- Easy visualizations
-- unlike the REPL remembers state between sessions
+- Feature rich
+- Unlike the REPL remembers state between sessions
+
+![](assets/jupyter-lab.png)
 
 ---
 
-### Jupyter buts...
+Easy Visualizations
 
-- The web interface feels clunky
-- Who wants to code in a browser?
+![](assets/jupyter-viz.png)
 
 ---
 
 ### django-extensions
-## shell_plus
+## [shell_plus]()
 ### is awesome
 
 - Loads models, settings, and more into Django shell
-- Further enhances the shell with ipython, bython, etc
+- Further enhances the shell with ipython, etc
 
 **note: Calling it shell_plus from now on**
-
----
-
-### shell_plus buts...
-
-  - Tied to all the other pieces of django-extensions
-  - Code is a bit cryptic
-  - Shell doesn't remember what you did before
 
 ---
 
@@ -68,21 +61,61 @@ So easy!
 ./manage.py shell_plus --notebook
 ```
 
-Even brings in shell_plus!
+All the features we want in one place!
 
 ---
 
-# But...
+# Hooray!
 
 ---
 
-## [Django+Jupyter]() never works
+# 😭
 
 ---
 
-### After periodic attempts over the years
+# A
+# few
+# problems
 
 ---
+
+## Problems with [Jupyter Notebook]()
+
+- The web interface feels clunky
+- I don't like coding in a browser
+
+![](assets/jupyter-browser.png)
+
+---
+
+### Problems with shell_plus
+
+- shell_plus tied to all the other pieces of django-extensions
+- Somewhat cryptic code base
+- Hard to extend outside of a limited functionality set
+
+---
+
+# One more problem...
+
+---
+
+## This never works
+
+```sh
+./manage.py shell_plus --notebook
+```
+
+
+---
+
+# EVER
+
+_I've yet to see it myself_
+
+---
+
+After many attempts over the years
 
 ## I gave up on [Django+Jupyter]()
 
@@ -96,11 +129,25 @@ Audrey started to use Jupyter notebook but wasn't complaining
 
 ---
 
-Taught me that VS Code has a fantastic interface
+## Jupyter + [VSCode]()
+
+![](assets/vscode-jupyter.png)
+
+Nicer interface
 
 ---
 
-Still couldn't use it with Django :sad:
+#### Other Jupyter Integrations:
+
+- PyCharm
+- Vim
+- Emacs
+
+---
+
+## Still couldn't use it with Django 
+
+# 😭
 
 ---
 
@@ -108,9 +155,12 @@ Still couldn't use it with Django :sad:
 
 ---
 
-Found example in Kraken for running Django with Jupyter
+### Found example in Kraken
+
+How to run Django in Jupyter
 
 ```python
+# Import does path work to load Django config
 import localdev.jupyter.setup
 ```
 
@@ -128,11 +178,11 @@ Brand.objects.all()
 <Brand: Two Scoops Energy>]>
 ```
 
-:shock:
+# 😲
 
 ---
 
-## What about django-extensions shell_plus?
+## What about django-extensions [shell_plus]()?
 
 I want that magic shell...
 
@@ -164,10 +214,12 @@ for directive in import_directives:
 ### Got it working!
 
 ```python
+# Uses Jupyter %run magic command
 %run localdev/jupyter/setup_plus.py
 ```
 
 ```python
+# _plus object implicitly loaded
 _plus.Brand.objects.all()
 ```
 
@@ -186,16 +238,43 @@ _plus.Brand.objects.all()
 ---
 
 ## I
-## want
+## wanted
 ## to move
 # [faster]()
 
 ---
 
-### I want to move faster
+### I wanted to move faster
 
 - Kraken serves 10s of millions of customers
 - We have to tread carefully
+
+---
+
+### Desired change
+
+Load [_plus]() explicitly rather than implicitly
+
+---
+
+### Instead of implicit loads
+
+```python
+# Load implicit '_plus' object
+%run localdev/jupyter/setup_plus.py
+```
+
+---
+
+### Generate variable explicitly:
+
+```python
+# Explicit import
+from blarg import activate
+
+# Explicit variable definition
+plus = activate('path.to.settings')
+```
 
 ---
 
@@ -203,20 +282,30 @@ _plus.Brand.objects.all()
 
 ---
 
-# Open sourcing
-
----
-
 ## Open sourcing
 
 - Allows us to add features more quickly
-- Share the fun of Django+Jupyter with everyone else
+- Share fun of Django+Jupyter with planet
 
 ---
 
 ### Good Fortune
 
-Django+Jupyter is not tied to Kraken or Octopus Energy's business model
+Django+Jupyter is not tied to
+
+### [Kraken's business model]()
+
+---
+
+# September 2023
+
+---
+
+## [dj-notebook]()
+
+# 😁
+
+## open sourced
 
 ---
 
@@ -225,22 +314,45 @@ Django+Jupyter is not tied to Kraken or Octopus Energy's business model
 - Easy-to-use wrapper around shell_plus
 - Extra tools added that we've dreamed up
 
----
-
-## 2. Demo
+<!-- .slide: data-auto-animate="1" -->
 
 ---
 
-## 3. Calls to action 
+## Current state:
+
+- Easy-to-use wrapper around shell_plus
+- Extra tools added that we've dreamed up
+- **[LOGO!!!]()**
+
+![](assets/dj-notebook-logo.png)
+
+<!-- .slide: data-auto-animate="1" -->
 
 ---
 
-# Try dj-notebook
+# 2. Demo
+
+_Secret mission: convince people to use [dj-notebook]() instead of shell_plus_
+
+---
+
+# 3. Calls to action 
+
+---
+
+# Try
+## [dj-notebook]()
 
 - Opinions
 - Tricks
 - Bugs
 - Features
+
+---
+
+[github.com/pydanny/dj-notebook](https://github.com/pydanny/dj-notebook)
+
+[dj-notebook.readthedocs.io](https://dj-notebook.readthedocs.io)
 
 ---
 
@@ -252,7 +364,6 @@ Django+Jupyter is not tied to Kraken or Octopus Energy's business model
 
 ---
 
-# Work for others in the field
+[![](assets/dj-notebook-logo.png)](https://github.com/pydanny/dj-notebook)
 
-TODO list climatebase
-
+[github.com/pydanny/dj-notebook](https://github.com/pydanny/dj-notebook)

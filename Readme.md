@@ -17,6 +17,12 @@ Start server on a file in watch mode.
 reveal-md slides.md -w
 ```
 
+Or if you want a make command:
+
+```
+make serve
+```
+
 ## Credits
 
 It's got support for [mermaid](https://mermaid-js.github.io/mermaid/#/), thanks to this 
