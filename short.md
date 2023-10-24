@@ -8,7 +8,7 @@ margin: 0.04
 
 ![](assets/dj-notebook-logo.png)
 
-```plain
+```text
 Daniel Roy Greenfeld
 Coder
 Kraken Tech
@@ -20,6 +20,33 @@ Working to save the planet for future generations
 ## [kraken.tech](http://kraken.tech/)
 
 Come and work with me to help save the planet
+
+----
+
+## Hello Paris! 🇫🇷
+
+My first time here!
+
+----
+
+## Hello Paris! 🇫🇷
+
+I came all the way here from London
+
+to tell you about [dj-notebook]()
+
+----
+
+## Hello Paris! 🇫🇷
+
+Yes, I'm struggling through
+
+- delicious food 🍲
+- delightful wine 🍷
+- incredible history 🏰
+- world-class art 🎨
+
+to tell you about [dj-notebook]()
 
 ----
 
