@@ -8,12 +8,30 @@ margin: 0.04
 
 ![](assets/dj-notebook-logo.png)
 
-```text
 Daniel Roy Greenfeld
-Coder
-Kraken Tech
-Working to save the planet for future generations
-```
+
+----
+
+### Daniel Roy Greenfeld
+
+aka "pydanny"
+
+- Coder
+- Employment
+  - Kraken Tech
+  - Startups
+  - NASA & other US government agencies
+
+----
+
+### Coding
+
+- co-author of Two Scoops of Django
+- open source
+  - co-maintainter of Cookiecutter
+  - cookiecutter-django
+  - djangopackages.org
+  - django-crispy-forms
 
 ----
 
