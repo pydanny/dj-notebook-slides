@@ -88,9 +88,10 @@ All the features we want in one place!
 
 ---
 
-### Problems with shell_plus
+## Problems with
+## [shell_plus]()
 
-- shell_plus tied to all the other pieces of django-extensions
+- [shell_plus]() tied to all the other pieces of django-extensions
 - Somewhat cryptic code base
 - Hard to extend outside of a limited functionality set
 
@@ -125,7 +126,15 @@ After many attempts over the years
 
 ---
 
-Audrey started to use Jupyter notebook but wasn't complaining
+Audrey started to use Jupyter notebook...
+
+<!-- .slide: data-auto-animate="2" -->
+
+---
+
+...but wasn't complaining
+
+<!-- .slide: data-auto-animate="2" -->
 
 ---
 
@@ -182,13 +191,14 @@ Brand.objects.all()
 
 ---
 
-## What about django-extensions [shell_plus]()?
+## What about 
+## [shell_plus]()?
 
 I want that magic shell...
 
 ---
 
-### Dove into shell_plus
+#### Dove into shell_plus source
 
 ```python
 # django_extensions/management/shells.py
@@ -237,17 +247,17 @@ _plus.Brand.objects.all()
 
 ---
 
+#### Kraken's magificent volume
+
+- Kraken serves 10s of millions of customers
+- We have to tread carefully
+
+---
+
 ## I
 ## wanted
 ## to move
 # [faster]()
-
----
-
-### I wanted to move faster
-
-- Kraken serves 10s of millions of customers
-- We have to tread carefully
 
 ---
 
@@ -332,7 +342,11 @@ Django+Jupyter is not tied to
 
 # 2. Demo
 
-_Secret mission: convince people to use [dj-notebook]() instead of shell_plus_
+_Secret mission:_
+
+_Convince you to use_
+
+_[dj-notebook]() instead of shell_plus_
 
 ---
 
@@ -350,9 +364,11 @@ _Secret mission: convince people to use [dj-notebook]() instead of shell_plus_
 
 ---
 
-[github.com/pydanny/dj-notebook](https://github.com/pydanny/dj-notebook)
+**[github.com/pydanny/dj-notebook](https://github.com/pydanny/dj-notebook)**
 
-[dj-notebook.readthedocs.io](https://dj-notebook.readthedocs.io)
+### ~
+
+**[dj-notebook.readthedocs.io](https://dj-notebook.readthedocs.io)**
 
 ---
 
