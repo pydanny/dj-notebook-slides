@@ -1,7 +1,14 @@
 
-![inline](assets/dj-notebook-logo.png)
+![inline](assets/kraken-docs.png) ![inline](assets/dj-notebook-logo.png) 
 
+[Django]() + [shell_plus]() + [Jupyter]()
 Daniel Roy Greenfeld
+
+----
+
+<br><br><br><br><br><br><br><br>
+
+# [fit] [Django]() + [shell_plus]() + [Jupyter]()
 
 <!--
 ----
@@ -72,21 +79,13 @@ aka "pydanny"
 
 ----
 
-# [fit] I'm going to teach 
-
-# [fit] how to save "sessions"
-
-# [fit] when using shell_plus
-
-----
-
 ### Terminal shell_plus vs Jupyter Notebooks
 
-# [fit] Unlike the REPL
+# [fit] Unlike shell_plus
 
 # [fit][Jupyter notebooks]()
 
-# [fit] preserves full code order!
+# [fit] preserves the "session"!
 
 ----
 <br><br>
@@ -168,7 +167,7 @@ plus = activate()
 - Vim
 - Web (ugh)
 
-Anywhere where Jupyter notebooks can be run
+# Anywhere Jupyter notebooks can be run
 
 ----
 
@@ -186,12 +185,6 @@ Anywhere where Jupyter notebooks can be run
 
 <br><br><br>
 
-# [fit] I'm going to show you
-
-----
-
-<br><br><br>
-
 # [fit] [DEMO TIME]()
 
 ----
@@ -202,12 +195,19 @@ Anywhere where Jupyter notebooks can be run
 
 [docs.kraken.guide/kraken-core/master/](https://docs.kraken.guide/kraken-core/master/)
 
+----
+
+# [fit] Where is it documented?
+
+![inline](assets/dj-notebook-logo.png)
+
+[dj-notebook.readthedocs.io](https://dj-notebook.readthedocs.io)
 
 ----
 
 # [fit] Call to Action
 
-<br><br>
+<br><br>``
 
 # [fit] Contribute to dj-notebook!
 
