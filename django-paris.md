@@ -1,18 +1,11 @@
----
-title: Reveal-md
-theme: blood  # black, white, league, beige, sky, night*, serif, simple, solarized, blood, moon
-revealOptions:
-  transition: slide
-margin: 0.04
----
 
-![](assets/dj-notebook-logo.png)
+![inline](assets/dj-notebook-logo.png)
 
 Daniel Roy Greenfeld
 
 ----
 
-### Daniel Roy Greenfeld
+# Daniel Roy Greenfeld
 
 aka "pydanny"
 
@@ -24,7 +17,7 @@ aka "pydanny"
 
 ----
 
-### Coding
+# Coding
 
 - co-author of Two Scoops of Django
 - open source
@@ -35,19 +28,19 @@ aka "pydanny"
 
 ----
 
-## [kraken.tech](http://kraken.tech/)
+# [fit] [kraken.tech](http://kraken.tech/)
 
 Come and work with me to help save the planet
 
 ----
 
-## Hello Paris! 🇫🇷
+# [fit] Hello Paris! 🇫🇷
 
 My first time here!
 
 ----
 
-## Hello Paris! 🇫🇷
+# [fit] Hello Paris! 🇫🇷
 
 I came all the way here from London
 
@@ -55,7 +48,7 @@ to tell you about [dj-notebook]()
 
 ----
 
-## Hello Paris! 🇫🇷
+# [fit] Hello Paris! 🇫🇷
 
 Yes, I'm struggling through
 
@@ -68,7 +61,7 @@ to tell you about [dj-notebook]()
 
 ----
 
-## My Mission Today
+## [fit] My Mission Today
 
 Convince you to use [dj-notebook]() 
 
@@ -78,17 +71,17 @@ stop using [django-extensions shell-plus]() directly
 
 ----
 
-### [dj-notebook]() is a
+### [fit] [dj-notebook]() is a
 
-# wrapper 
+# [fit] wrapper 
 
-### around [shell_plus]()
+### [fit] around [shell_plus]()
 
 ----
 
-#### Makes running django-extentions
+#### [fit] Makes running django-extentions
 
-#### in Jupyter notebook trivial
+#### [fit] in Jupyter notebook trivial
 
 ```python
 # measurements.ipynb
@@ -98,7 +91,7 @@ plus = activate()
 
 ----
 
-### Works everywhere
+### [fit] Works everywhere
 
 - Web
 - VSCode
@@ -110,15 +103,25 @@ Anywhere where Jupyter notebooks can be run
 
 ----
 
-## Easy-to-extend
+## [fit] Easy-to-extend
 
 ----
 
-### Lots of extra features
+### Awesome feature
+
+# [fit] unlike raw shell_plus
+
+# [fit] dj-notebook
+
+# [fit] preserves sessions!
 
 ----
 
-## Rather than tell you about the features
+## [fit] Lots more features
+
+----
+
+## [fit] Rather than tell you about the features
 
 ----
 
@@ -126,11 +129,11 @@ Anywhere where Jupyter notebooks can be run
 
 ----
 
-# [DEMO TIME]()
+# [fit] [DEMO TIME]()
 
 ----
 
-**github.com/pydanny/dj-notebook**
+# [fit] [github.com/pydanny/dj-notebook]()
 
 <br>
 <br>
